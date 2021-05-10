@@ -11,8 +11,7 @@ function App() {
             Votre site sera opérationnel sous peu.  <br/>
             <i>-Equipe Developpeurs-</i> 
         </p>
-        <h2> Hello la Fam!!!</h2>
-        
+       
       </header>
     </div>
   );
