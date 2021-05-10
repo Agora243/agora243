@@ -9,7 +9,7 @@ function App() {
         <p>
             Bienvenue sur Agora243. Nous sommes encore en mode Dev!<br/>
             Votre site sera opérationnel sous peu.  <br/>
-            <i>-Equipe Dev-</i> 
+            <i>-Equipe Developper-</i> 
         </p>
         
       </header>
