@@ -1,17 +1,7 @@
 .App {
-  text-align: center;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 .App-header {
   background-color: #282c34;
@@ -28,11 +18,55 @@
   color: #61dafb;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+.formConnexionContainer{
+  font-size : 1em;
+  position : relative;
+  margin: 6% auto 0 auto;
+  padding: 4%;
+  max-width : 40%;
+  min-width: 39%;
+  border : 1px solid black;
+  text-align : center;
+  background: #FFFFFF;
+  border: 0px;
+  border-radius: 10px;
+  filter: drop-shadow(4px 8px 15px rgba(0, 0, 0, 0.2));
+  box-sizing : border-box;
+  
+}
+.formConnexion{
+  display : flex;
+  flex-direction : column;
+  align-items: center;
+  align-content: space-around; 
+}
+.formInput{
+  width: 100%;
+  height: 40px;
+  background: #FFFFFF;
+  border: 1px solid #C4C4C4;
+  border-radius: 5px;
+}
+.formLabelZone{
+  padding : 15px 10px;
+  width : 100%;
+}
+
+.btnConnexion{
+  color : #EFEFEF;
+  background-color: #FF9900;
+  border-radius: 5px;
+  padding : 5px;
+  cursor : pointer;
+}
+.btnConnexion:hover{
+  background-color: #ef9000;
+  filter: drop-shadow(4px 8px 15px rgba(0, 0, 0, 0.2));
+
+}
+
+#formConnexionBtnConnexion{
+  width: 210px;
+  font-size : 0.9em;
 }
